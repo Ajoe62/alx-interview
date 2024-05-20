@@ -1,9 +1,6 @@
 #!/usr/bin/python3
 """Log parsing
 """
-
-
-
 import sys
 
 # store the count of all status codes in a dictionary
