@@ -2,6 +2,7 @@
 
 """Solutionto the Island Perimeter Problem"""
 
+
 def island_perimeter(grid):
     """
     calculate the perimeter of the island
@@ -13,7 +14,7 @@ def island_perimeter(grid):
             if (grid[i][j] == 1):
                 if (i <= 0 or grid[i - 1][j] == 0):
                     perim += 1
-                if (i >= len(grid) -1 or grid[i + 1][j] == 0):
+                if (i >= len(grid) - 1 or grid[i + 1][j] == 0):
                     perim += 1
                 if (j <= 0 or grid[i][j - 1] == 0):
                     perim += 1
